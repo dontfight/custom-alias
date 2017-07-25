@@ -2,6 +2,8 @@
 alias gam="/Users/bruce/bin/gam/gam"
 alias dkc='docker-compose'
 alias dpi="docker images |grep -v REPOSITORY|awk '{print \$1}'|xargs -L1 docker pull"
+alias sqlyog='/usr/local/bin/wine ~/.wine/drive_c/Program\ Files\ \(x86\)/SQLyog/SQLyog.exe'
+
+#ATS related
 alias mountm='sudo sshfs -o allow_other,default_permissions bruce@10.2.4.9:/ /mnt/media'
 alias umountm='sudo umount /mnt/media'i
-alias sqlyog='/usr/local/bin/wine ~/.wine/drive_c/Program\ Files\ \(x86\)/SQLyog/SQLyog.exe'
